@@ -20,5 +20,6 @@ public class Question9 {
         } else {
             System.out.println("Invalid character");
         }
+        s.close();
     }
 }
