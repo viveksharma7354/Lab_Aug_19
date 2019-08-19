@@ -26,5 +26,6 @@ public class Question12 {
             else
                 System.out.println(a + " is not a prime number.");
         }
+        s.close();
     }
 }
