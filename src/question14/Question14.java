@@ -23,6 +23,6 @@ public class Question14 {
             System.out.println(k + " is a palindrome.");
         else
             System.out.println(k + " is not a palindrome.");
-
+        s.close();
     }
 }
