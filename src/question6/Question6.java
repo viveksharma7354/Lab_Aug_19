@@ -17,5 +17,6 @@ public class Question6 {
             System.out.println(c[0] + " " + c[2]);
         else
             System.out.println(c[2] + " " + c[0]);
+        s.close();
     }
 }
