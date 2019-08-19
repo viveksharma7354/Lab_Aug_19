@@ -55,5 +55,6 @@ public class Question10 {
         } else {
             System.out.println("Invalid Number");
         }
+        s.close();
     }
 }
