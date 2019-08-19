@@ -20,5 +20,6 @@ public class Question7 {
         } else {
             System.out.println("special character");
         }
+        s.close();
     }
 }
