@@ -11,12 +11,12 @@ import java.util.Scanner;
 public class Question6 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        String na = s.nextLine();
-        char[] c = na.toCharArray();
-        if (Character.toLowerCase(c[0]) < Character.toLowerCase(c[2]))
-            System.out.println(c[0] + " " + c[2]);
+        char a = s.next().charAt(0);
+        char b = s.next().charAt(0);
+        if (Character.toLowerCase(a) < Character.toLowerCase(b))
+            System.out.println(a + " " + b);
         else
-            System.out.println(c[2] + " " + c[0]);
+            System.out.println(b + " " + a);
         s.close();
     }
 }
