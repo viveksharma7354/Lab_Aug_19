@@ -19,5 +19,6 @@ public class Question13 {
             a = a / 10;
         }
         System.out.println(sum);
+        s.close();
     }
 }
