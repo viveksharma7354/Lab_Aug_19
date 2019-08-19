@@ -22,5 +22,6 @@ public class Question8 {
         } else if ((a.equals("female") || a.equals("Female")) && (b >= 59 && b <= 100)) {
             System.out.println("9.2%");
         }
+        s.close();
     }
 }
