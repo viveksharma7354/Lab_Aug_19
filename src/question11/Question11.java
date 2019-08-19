@@ -22,5 +22,6 @@ public class Question11 {
             }
         } else
             System.out.print("Invalid Range");
+        s.close();
     }
 }
