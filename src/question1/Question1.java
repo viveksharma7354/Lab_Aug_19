@@ -9,7 +9,8 @@ import java.util.Scanner;
 public class Question1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        String name = s.nextLine();
+        String name = s.nextLine().trim();
         System.out.println("Welcome, " + name + "!");
+        s.close();
     }
 }
